@@ -1,0 +1,111 @@
+html, body{
+  cursor: crosshair;
+  cursor: url(ellipse2.svg) 5 5, auto;
+}
+
+.overlay {
+  position: fixed;
+  height: 752px;
+  width: 1002px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-top: 30px;
+  z-index: 30;
+  top: 0;
+  left: 50%;
+  margin-left: -501px;
+  visibility: hidden;
+	opacity: 0;
+}
+
+
+.loss-text{
+  position: relative;
+  font-size: 101px;
+  text-align: center;
+  margin-top: 198px;
+  color: white;
+  font-weight: bold;
+  display: none;
+}
+
+.win-text{
+  position: relative;
+  font-size: 101px;
+  text-align: center;
+  margin-top: 198px;
+  color: white;
+  font-weight: bold;
+  display: none;
+}  
+
+.show {
+	visibility: visible !important;
+	opacity: 100 !important;
+}
+
+.show-text{
+  display:block;
+}
+
+.game{
+  display: flex;
+  height: 796px;
+  align-items: start;
+  justify-content: center;
+  margin-top: 30px;
+  z-index: -5;
+}
+
+.start-textbox{
+  height: 62px;
+  width: 73px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+  margin-top: -1px;
+  background: #A0FBA9;
+  display: flex;
+  z-index: 2;
+}
+
+.start-text{
+  margin: auto;
+}
+
+.finish-textbox{
+  height: 62px;
+  width: 73px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+  margin-top: -1px;
+  background: #EB7F7F;
+  display: flex;
+  z-index: 2;
+}
+
+.finish-text{
+  margin: auto;
+}
+
+.NewMap-btn{
+  display: flex;
+  margin: auto;
+}
+
+#maze {
+  border-collapse: collapse;
+  z-index: 1;
+  /* margin: 40px auto;  */
+}
+
+#maze td {
+	width: 30px;
+	height: 30px;
+}
+
+#maze td:hover {
+  background-color: green;
+}
