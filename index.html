@@ -21,10 +21,19 @@
 		<h3 class='loss-text'>GAMEOVER</h3>
 		<h3 class='win-text'>Congrats 👍</h3>
 	</div>
-	<button class="NewMap-btn">Generate New Map</button>
-	<!-- <script src="js/kruskal/kruskal.js"></script> -->
-	<!-- <script src="js/prim/prim.js"></script> -->
-	<!-- <script src="js/prim/prim-modified.js"></script> -->
+	<div class='input-panel'>
+		<select class='algorithm-options'>
+			<option value="kruskal">kruskal</option>
+			<option value="prim">prim</option>
+			<option value="prim-modified">prim-modified</option>
+			<option value="wilson">wilson</option>
+		</select>
+		<button class="NewMap-btn">Generate New Map</button>
+	</div>
+	<script src="js/kruskal/kruskal.js"></script> 
+	<script src="js/prim/prim.js"></script> 
+	<script src="js/prim/prim-modified.js"></script> 
 	<script src="js/wilson/wilson.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

@@ -90,9 +90,18 @@ html, body{
   margin: auto;
 }
 
-.NewMap-btn{
+.input-panel{
   display: flex;
   margin: auto;
+  justify-content: center;
+}
+
+.algorithm-options{
+  margin: 0 2px 0 2px;
+}
+
+.NewMap-btn{
+  margin: 0 2px 0 2px;
 }
 
 #maze {
